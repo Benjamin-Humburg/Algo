@@ -4,7 +4,7 @@ import math
 # Must be a finite list.
 # The list must be an integer list.
 # Returns true or false if target is in list.
-# Worst case is O(log n), where n is the list length
+# Worst case performance is O(log n), where n is the list length
 def binary_search(list, target):
     first_index = 0
     last_index = len(list) - 1
